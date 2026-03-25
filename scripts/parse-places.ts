@@ -1,6 +1,19 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "fs";
 import { join } from "path";
 
+// Load .env.local for local dev (Vercel injects env vars directly)
+function loadLocalEnv() {
+  const envPath = join(process.cwd(), ".env.local");
+  if (!existsSync(envPath)) return;
+  for (const line of readFileSync(envPath, "utf-8").split("\n")) {
+    const eqIdx = line.indexOf("=");
+    if (eqIdx === -1) continue;
+    const key = line.slice(0, eqIdx).trim();
+    const val = line.slice(eqIdx + 1).trim();
+    if (key && !process.env[key]) process.env[key] = val;
+  }
+}
+
 const VALID_CATEGORIES = new Set([
   "restaurant",
   "coffeeshop",
@@ -114,6 +127,7 @@ async function lookupPlaceId(
 }
 
 async function main() {
+  loadLocalEnv();
   const txtPath = join(process.cwd(), "data", "places.txt");
   const outPath = join(process.cwd(), "data", "places.json");
   const cachePath = join(process.cwd(), "data", ".placeid-cache.json");

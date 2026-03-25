@@ -5,11 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "prebuild": "tsx --env-file=.env.local scripts/parse-places.ts && tsx --env-file=.env.local scripts/enrich.ts",
+    "prebuild": "tsx scripts/parse-places.ts && tsx scripts/enrich.ts",
     "start": "next start",
     "lint": "eslint",
-    "parse": "tsx --env-file=.env.local scripts/parse-places.ts",
-    "enrich": "tsx --env-file=.env.local scripts/enrich.ts"
+    "parse": "tsx scripts/parse-places.ts",
+    "enrich": "tsx scripts/enrich.ts"
   },
   "dependencies": {
     "@types/leaflet": "^1.9.21",

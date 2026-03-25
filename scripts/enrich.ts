@@ -8,6 +8,19 @@ import {
 import { join } from "path";
 import https from "https";
 
+// Load .env.local for local dev (Vercel injects env vars directly)
+function loadLocalEnv() {
+  const envPath = join(process.cwd(), ".env.local");
+  if (!existsSync(envPath)) return;
+  for (const line of readFileSync(envPath, "utf-8").split("\n")) {
+    const eqIdx = line.indexOf("=");
+    if (eqIdx === -1) continue;
+    const key = line.slice(0, eqIdx).trim();
+    const val = line.slice(eqIdx + 1).trim();
+    if (key && !process.env[key]) process.env[key] = val;
+  }
+}
+
 const CACHE_TTL_DAYS = 7;
 
 interface PlaceRecord {
@@ -163,6 +176,7 @@ async function fetchAndDownloadPhotos(
 }
 
 async function main() {
+  loadLocalEnv();
   const placesPath = join(process.cwd(), "data", "places.json");
   const outPath = join(process.cwd(), "data", "places-enriched.json");
 
