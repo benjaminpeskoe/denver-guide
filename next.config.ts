@@ -2,14 +2,13 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    remotePatterns: [
+    localPatterns: [
       {
-        protocol: "https",
-        hostname: "maps.googleapis.com",
+        pathname: "/api/photo",
+        search: "**",
       },
       {
-        protocol: "https",
-        hostname: "places.googleapis.com",
+        pathname: "/photos/**",
       },
     ],
   },
