@@ -32,10 +32,6 @@ export default async function PlacePage({ params }: Props) {
 
   const heroPhoto = photos[0] ?? null;
 
-  const priceStr = place.enriched?.priceLevel
-    ? "$".repeat(place.enriched.priceLevel)
-    : null;
-
   const hoursEntries = place.enriched?.hours
     ? Object.entries(place.enriched.hours)
     : [];
@@ -79,25 +75,6 @@ export default async function PlacePage({ params }: Props) {
           </span>
           <span className="text-stone-300">·</span>
           <span>{place.neighborhood}</span>
-          {priceStr && (
-            <>
-              <span className="text-stone-300">·</span>
-              <span>{priceStr}</span>
-            </>
-          )}
-          {place.enriched?.rating && (
-            <>
-              <span className="text-stone-300">·</span>
-              <span>
-                ⭐ {place.enriched.rating.toFixed(1)}
-                {place.enriched.totalRatings && (
-                  <span className="text-stone-400 ml-1">
-                    ({place.enriched.totalRatings.toLocaleString()})
-                  </span>
-                )}
-              </span>
-            </>
-          )}
         </div>
 
         {/* Tags */}

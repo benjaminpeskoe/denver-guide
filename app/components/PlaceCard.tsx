@@ -12,10 +12,6 @@ interface Props {
 export default function PlaceCard({ place }: Props) {
   const photo = getPlacePrimaryPhoto(place);
   const catInfo = CATEGORIES.find((c) => c.value === place.category);
-  const priceStr = place.enriched?.priceLevel
-    ? "$".repeat(place.enriched.priceLevel)
-    : null;
-
   return (
     <Link
       href={`/place/${place.id}`}
@@ -57,18 +53,6 @@ export default function PlaceCard({ place }: Props) {
           <span>{catInfo?.label}</span>
           <span className="text-stone-300">·</span>
           <span>{place.neighborhood}</span>
-          {priceStr && (
-            <>
-              <span className="text-stone-300">·</span>
-              <span>{priceStr}</span>
-            </>
-          )}
-          {place.enriched?.rating && (
-            <>
-              <span className="text-stone-300">·</span>
-              <span>⭐ {place.enriched.rating.toFixed(1)}</span>
-            </>
-          )}
         </div>
         {place.tags.length > 0 && (
           <div className="flex flex-wrap gap-1 mt-1">
