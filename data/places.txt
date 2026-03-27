@@ -1,9 +1,38 @@
+# ─── Restaurants ───
+
+Bamboo Sushi
+restaurant, Congress Park
+kid-friendly
+Great sushi, laid back vibe, surprisingly tolerant of kids.
+
+Chef Zorba's
+restaurant, Congress Park
+kid-friendly
+Laid back Greek diner with huge portions. They have crayons for kids.
+
+Peter's Chinese
+restaurant, Congress Park
+Peter's is my favorite Chinese takeout in Denver. They have a few tables but don't plan to eat here.
+
+Spice Room
+restaurant, Colfax
+Excellent Indian. Great for takeout or sit down.
+
+Rosenberg's Bagels
+restaurant, Aurora
+kid-friendly
+Good bagels with fish and sandwich options. Stanley Marketplace is a great place to go with kids and hang out for a few hours.
+
 # ─── Coffee ───
 
 Goodbread
 coffeeshop, Colfax
 pet-friendly, kid-friendly, outdoor-seating, open-early
 Great pastries and sandwiches — get there early, they're sold out of the best stuff by mid/late morning. On Friday nights they do pretty decent pizza and dinner. Nice patio that's great for dogs and strollers.
+
+Honey Hill
+coffeeshop, Park Hill
+Fancy, homey feeling coffee shop with breakfast sandwiches.
 
 # ─── Outdoors ───
 
