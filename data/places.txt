@@ -1,25 +1,3 @@
-# ─── Restaurants ───
-
-Snooze, an A.M. Eatery
-restaurant, LoDo
-kid-friendly, open-early
-Best breakfast burrito in Denver. Go early on weekends — line gets long by 9am.
-
-Guard and Grace
-restaurant, LoDo
-date-night
-High-end steakhouse. The happy hour is an incredible deal.
-
-Hop Alley
-restaurant, RiNo
-date-night
-Chinese-American food in a cool RiNo space. Get the dan dan noodles.
-
-Uncle Ramen
-restaurant, RiNo
-friend-rec
-Haven't been yet but multiple people have told me to go.
-
 # ─── Coffee ───
 
 Goodbread
@@ -27,26 +5,9 @@ coffeeshop, Colfax
 pet-friendly, kid-friendly, outdoor-seating, open-early
 Great pastries and sandwiches — get there early, they're sold out of the best stuff by mid/late morning. On Friday nights they do pretty decent pizza and dinner. Nice patio that's great for dogs and strollers.
 
-Huckleberry Roasters
-coffeeshop, RiNo
-outdoor-seating
-My go-to coffee shop. Great space to work from too.
-
 # ─── Outdoors ───
-
-Red Rocks Trading Post Trail
-hike, Morrison
-kid-friendly, pet-friendly, free
-Easy loop with incredible rock formations. Great for all ages.
 
 Cheesman Park
 park, Cheesman Park
 pet-friendly, kid-friendly, free
 Great views of the mountains. The pavilion area is beautiful at sunset.
-
-# ─── Attractions ───
-
-Denver Art Museum
-attraction, Golden Triangle
-kid-friendly
-World-class collection. The Hamilton Building architecture alone is worth the visit.
