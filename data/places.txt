@@ -43,7 +43,7 @@ pet-friendly, kid-friendly, outdoor-seating, open-early
 Great pastries and sandwiches — get there early, they're sold out of the best stuff by mid/late morning. On Friday nights they do pretty decent pizza and dinner. Nice patio that's great for dogs and strollers.
 
 Honey Hill
-coffeeshop, Park Hill
+coffeeshop|restaurant, Park Hill
 Fancy, homey feeling coffee shop with breakfast sandwiches.
 
 # ─── Outdoors ───
@@ -54,7 +54,7 @@ pet-friendly, kid-friendly, free
 Great views of the mountains. The pavilion area is beautiful at sunset.
 
 Highline Canal Trail
-hike, Cherry Hills Village
+hike|park, Cherry Hills Village
 kid-friendly, pet-friendly, free
 Flat trail for walking, running, and biking. Best entry near Kent School or Marjorie Perry Nature Preserve.
 

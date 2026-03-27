@@ -23,7 +23,7 @@ export default async function PlacePage({ params }: Props) {
 
   const allPlaces = getAllPlaces();
   const nearby = getNearbyPlaces(place, allPlaces);
-  const catInfo = CATEGORIES.find((c) => c.value === place.category);
+  const catInfos = CATEGORIES.filter((c) => place.categories.includes(c.value));
 
   const photos = [
     ...place.myPhotos,
@@ -51,7 +51,7 @@ export default async function PlacePage({ params }: Props) {
         <div className="relative h-72 sm:h-96 rounded-2xl overflow-hidden bg-stone-100 mb-6">
           <Image
             src={heroPhoto}
-            alt={`${place.name} — ${place.category}`}
+            alt={`${place.name} — ${place.categories[0]}`}
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 768px"
@@ -71,7 +71,7 @@ export default async function PlacePage({ params }: Props) {
 
         <div className="flex flex-wrap items-center gap-2 text-stone-500 text-sm">
           <span>
-            {catInfo?.icon} {catInfo?.label}
+            {catInfos.map((c) => c.icon).join(" ")} {catInfos.map((c) => c.label).join(" · ")}
           </span>
           <span className="text-stone-300">·</span>
           <span>{place.neighborhood}</span>

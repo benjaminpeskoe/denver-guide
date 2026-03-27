@@ -11,7 +11,7 @@ interface Props {
 
 export default function PlaceCard({ place }: Props) {
   const photo = getPlacePrimaryPhoto(place);
-  const catInfo = CATEGORIES.find((c) => c.value === place.category);
+  const catInfos = CATEGORIES.filter((c) => place.categories.includes(c.value));
   return (
     <Link
       href={`/place/${place.id}`}
@@ -26,14 +26,14 @@ export default function PlaceCard({ place }: Props) {
         {photo ? (
           <Image
             src={photo}
-            alt={`${place.name} — ${place.category}`}
+            alt={`${place.name} — ${place.categories[0]}`}
             fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
           />
         ) : (
           <div className="flex h-full items-center justify-center text-4xl text-stone-300">
-            {catInfo?.icon}
+            {catInfos[0]?.icon}
           </div>
         )}
         {place.isFriendRec && (
@@ -49,8 +49,8 @@ export default function PlaceCard({ place }: Props) {
           {place.name}
         </h3>
         <div className="flex items-center gap-1.5 text-sm text-stone-500">
-          <span>{catInfo?.icon}</span>
-          <span>{catInfo?.label}</span>
+          <span>{catInfos.map((c) => c.icon).join(" ")}</span>
+          <span>{catInfos.map((c) => c.label).join(" · ")}</span>
           <span className="text-stone-300">·</span>
           <span>{place.neighborhood}</span>
         </div>

@@ -71,8 +71,8 @@ export default function MapView({ places, highlightId }: Props) {
       for (const place of placesWithCoords) {
         const lat = place.enriched!.lat!;
         const lng = place.enriched!.lng!;
-        const color = CATEGORY_COLORS[place.category] ?? "#888";
-        const catInfo = CATEGORIES.find((c) => c.value === place.category);
+        const color = CATEGORY_COLORS[place.categories[0]] ?? "#888";
+        const catInfo = CATEGORIES.find((c) => c.value === place.categories[0]);
 
         const icon = L.divIcon({
           html: `<div style="background:${color};width:28px;height:28px;border-radius:50%;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.3);display:flex;align-items:center;justify-content:center;font-size:13px;">${catInfo?.icon ?? "📍"}</div>`,
@@ -117,7 +117,7 @@ export default function MapView({ places, highlightId }: Props) {
       <div className="w-72 overflow-y-auto flex flex-col gap-2 hidden lg:flex">
         {places.map((place) => {
           const photo = getPlacePrimaryPhoto(place);
-          const catInfo = CATEGORIES.find((c) => c.value === place.category);
+          const catInfo = CATEGORIES.find((c) => c.value === place.categories[0]);
           return (
             <a
               key={place.id}

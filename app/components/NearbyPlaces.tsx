@@ -23,7 +23,7 @@ export default function NearbyPlaces({ places }: Props) {
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
         {places.map((place) => {
           const photo = getPlacePrimaryPhoto(place);
-          const catInfo = CATEGORIES.find((c) => c.value === place.category);
+          const catInfo = CATEGORIES.find((c) => c.value === place.categories[0]);
           return (
             <Link
               key={place.id}

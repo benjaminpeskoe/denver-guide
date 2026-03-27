@@ -52,11 +52,14 @@ function parseBlock(block: string): Record<string, unknown> | null {
 
   const name = lines[0];
   const line2Parts = lines[1].split(",").map((s) => s.trim());
-  const category = line2Parts[0]?.toLowerCase();
+  const categoriesRaw = line2Parts[0]?.toLowerCase() ?? "";
+  const categories = categoriesRaw.split("|").map((c) => c.trim()).filter(Boolean);
   const neighborhood = line2Parts[1] ?? "";
 
-  if (!VALID_CATEGORIES.has(category)) {
-    console.warn(`  Warning: unknown category "${category}" for "${name}"`);
+  for (const cat of categories) {
+    if (!VALID_CATEGORIES.has(cat)) {
+      console.warn(`  Warning: unknown category "${cat}" for "${name}"`);
+    }
   }
 
   let tags: string[] = [];
@@ -93,7 +96,7 @@ function parseBlock(block: string): Record<string, unknown> | null {
   return {
     id,
     name,
-    category,
+    categories,
     neighborhood,
     tags: filteredTags,
     myNotes,

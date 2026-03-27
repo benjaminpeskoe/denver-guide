@@ -15,7 +15,7 @@ export function filterPlaces(
   }
 ): EnrichedPlace[] {
   return places.filter((place) => {
-    if (category && place.category !== category) return false;
+    if (category && !place.categories.includes(category)) return false;
     if (neighborhood && place.neighborhood !== neighborhood) return false;
     if (tags && tags.length > 0) {
       if (!tags.every((t) => place.tags.includes(t))) return false;

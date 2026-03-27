@@ -19,7 +19,7 @@ export type Tag =
 export interface Place {
   id: string;
   name: string;
-  category: Category;
+  categories: Category[];
   neighborhood: string;
   tags: Tag[];
   myNotes: string;
