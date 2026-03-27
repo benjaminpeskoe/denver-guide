@@ -12,7 +12,7 @@ Laid back Greek diner with huge portions. They have crayons for kids.
 
 Peter's Chinese
 restaurant, Congress Park
-Peter's is my favorite Chinese takeout in Denver. They have a few tables but don't plan to eat here.
+My favorite Chinese takeout in Denver. They have a few tables but don't plan to eat here.
 
 Spice Room
 restaurant, Colfax
@@ -22,6 +22,18 @@ Rosenberg's Bagels
 restaurant, Aurora
 kid-friendly
 Good bagels with fish and sandwich options. Stanley Marketplace is a great place to go with kids and hang out for a few hours.
+
+Sap Sua
+restaurant, Congress Park
+Modern, very delicious Vietnamese food. They have a great bakery on Saturday mornings. Fine for adults but not really a kid spot.
+
+Little Arthur's Hoagies
+restaurant, Capitol Hill
+Delicious, messy, enormous sandwiches. The chicken cutlet with pistachio pesto is worth a trip for. Tap room in the same space.
+
+Curtis Park Deli
+restaurant, Curtis Park
+Nothing fancy but really solid sandwiches.
 
 # ─── Coffee ───
 
@@ -40,3 +52,39 @@ Cheesman Park
 park, Cheesman Park
 pet-friendly, kid-friendly, free
 Great views of the mountains. The pavilion area is beautiful at sunset.
+
+Highline Canal Trail
+hike, Cherry Hills Village
+kid-friendly, pet-friendly, free
+Flat trail for walking, running, and biking. Best entry near Kent School or Marjorie Perry Nature Preserve.
+
+# ─── Attractions ───
+
+Denver Zoo
+attraction, City Park
+kid-friendly, open-early
+We spend a ton of time here. Opens early for members. The reptile and amphibian house is great for cold days.
+
+Denver Museum of Nature & Science
+attraction, City Park
+kid-friendly
+Can be crowded but very entertaining for kids.
+
+Denver Central Library
+attraction, Downtown
+kid-friendly, free
+Cool space to hang out. Great children's section with toys. Interesting historical books and maps area.
+
+Morrison Nature Center
+attraction, Aurora
+kid-friendly, free
+Great for a nice day. Children's play area, some trails, and some indoor displays.
+
+Dazzle Jazz Club
+attraction, Downtown
+date-night
+Decent acts come through here. The vibe is only OK but the music sounds good.
+
+Red Rocks Amphitheater
+attraction, Morrison
+Legendary music venue for a reason. Getting here is a total pain.
