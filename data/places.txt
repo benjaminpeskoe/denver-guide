@@ -69,6 +69,28 @@ Carmine Lonardo's
 restaurant, Lakewood
 Very authentic Italian deli. Great, huge sandwiches and lots of Italian ingredients you wouldn't find elsewhere. Surprising to find a place like this outside of New York.
 
+Cherry Cricket
+restaurant, Cherry Creek
+Solid burgers/American food. Good casual patio with picnic tables.
+
+Matsuhisa Cherry Creek
+restaurant, Cherry Creek
+date-night
+I have a soft spot for a Nobu...
+
+Yuan Wonton
+restaurant, Park Hill
+Delicious dumplings in a very pretty space.
+
+Odie B's
+restaurant, Sloan's Lake
+outdoor-seating
+Good sandwich spot with fun (loud) music. Small but nice patio.
+
+Potager
+restaurant, Capitol Hill
+Great food with a focus on seasonal produce, cool vibe with lots of greenery.
+
 # ─── Coffee ───
 
 Goodbread
@@ -166,6 +188,10 @@ Ball Arena
 attraction, LoDo
 Perfectly acceptable place to watch a basketball game. Jokic is fun to see in person.
 
+Bluebird Theater
+attraction, Colfax
+Cool old theater. Not always my kind of music, but when there's a band I like it's great.
+
 # ─── Bars ───
 
 Cerebral Brewing
@@ -182,3 +208,18 @@ Denver Beer Co. Lowry
 bar, Lowry
 kid-friendly, outdoor-seating
 Nice patio with a playground 25 yards away. Perfect for little kids.
+
+# ─── Shopping ───
+
+REI
+shopping, Highland
+It's an REI, but it's a nice one.
+
+City Floral
+shopping, Colfax East
+My favorite garden store.
+
+Cherry Creek Mall
+shopping, Cherry Creek
+kid-friendly
+Huge modern mall. There's a dinosaur playground for kids. Decent food options.
