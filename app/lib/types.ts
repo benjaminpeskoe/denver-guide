@@ -5,7 +5,8 @@ export type Category =
   | "park"
   | "attraction"
   | "hike"
-  | "skiing";
+  | "skiing"
+  | "shopping";
 
 export type Tag =
   | "kid-friendly"

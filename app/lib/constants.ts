@@ -8,6 +8,7 @@ export const CATEGORIES: { value: Category; label: string; icon: string }[] = [
   { value: "attraction", label: "Attractions", icon: "🎭" },
   { value: "hike", label: "Hikes", icon: "🥾" },
   { value: "skiing", label: "Skiing", icon: "⛷️" },
+  { value: "shopping", label: "Shopping", icon: "🛍️" },
 ];
 
 export const TAGS: { value: Tag; label: string }[] = [
@@ -28,4 +29,5 @@ export const CATEGORY_COLORS: Record<Category, string> = {
   attraction: "#7b68ee",
   hike: "#d4a853",
   skiing: "#4a9ece",
+  shopping: "#e06b9b",
 };

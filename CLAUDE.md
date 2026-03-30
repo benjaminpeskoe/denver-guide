@@ -15,7 +15,7 @@ tag1, tag2
 My notes about the place.
 ```
 
-**Categories:** `restaurant` `coffeeshop` `park` `attraction` `hike` `skiing`
+**Categories:** `restaurant` `coffeeshop` `bar` `park` `attraction` `hike` `skiing` `shopping`
 
 **Tags:** `kid-friendly` `pet-friendly` `open-early` `open-late` `free` `date-night` `outdoor-seating` `friend-rec`
 
