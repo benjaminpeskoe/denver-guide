@@ -17,6 +17,7 @@ function loadLocalEnv() {
 const VALID_CATEGORIES = new Set([
   "restaurant",
   "coffeeshop",
+  "bar",
   "park",
   "attraction",
   "hike",

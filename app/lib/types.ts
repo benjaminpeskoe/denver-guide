@@ -1,6 +1,7 @@
 export type Category =
   | "restaurant"
   | "coffeeshop"
+  | "bar"
   | "park"
   | "attraction"
   | "hike"
