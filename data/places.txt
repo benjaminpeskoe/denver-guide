@@ -89,6 +89,11 @@ Lula Rose
 coffeeshop, Colfax
 Sweet little coffee shop on Colfax. Owned by the same people as Goodbread.
 
+Steam Espresso Bar
+coffeeshop, Platt Park
+outdoor-seating, pet-friendly
+Nice coffee shop with a gorgeous backyard. They have a walk-up window if you have a dog or a stroller.
+
 # ─── Outdoors ───
 
 Cheesman Park
@@ -146,6 +151,16 @@ Decent acts come through here. The vibe is only OK but the music sounds good.
 Red Rocks Amphitheater
 attraction, Morrison
 Legendary music venue for a reason. Getting here is a total pain.
+
+City Park Farmers Market
+attraction, City Park
+kid-friendly, free
+Great stop on Saturday mornings from May through October. Decent selection of food trucks, fresh produce, and other vendors. Usually has live music.
+
+South Pearl Street Farmers Market
+attraction, Platt Park
+free
+Better than City Park for produce. Can get really crowded.
 
 Ball Arena
 attraction, LoDo
