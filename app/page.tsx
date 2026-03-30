@@ -13,7 +13,7 @@ export default function HomePage() {
           My Denver Guide
         </h1>
         <p className="mt-2 text-stone-500 text-lg">
-          My favorite spots around the Mile High City
+          My favorite spots around Denver
         </p>
       </div>
 
