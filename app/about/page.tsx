@@ -27,6 +27,12 @@ export default function AboutPage() {
           tried yet.
         </p>
         <p>Have a great time in Denver! 🏔️</p>
+        <p>
+          Have a place you think I should try?{" "}
+          <Link href="/submit" className="text-sky-700 hover:text-sky-800 font-medium">
+            Submit it here.
+          </Link>
+        </p>
       </div>
       <div className="mt-8">
         <Link

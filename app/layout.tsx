@@ -40,7 +40,7 @@ export default function RootLayout({
               </Link>
               <Link
                 href="/submit"
-                className="hover:text-sky-700 transition-colors"
+                className="rounded-full bg-sky-700 px-4 py-1.5 text-white hover:bg-sky-800 transition-colors"
               >
                 Suggest a place
               </Link>
