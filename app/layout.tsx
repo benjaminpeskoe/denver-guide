@@ -38,6 +38,12 @@ export default function RootLayout({
               >
                 About
               </Link>
+              <Link
+                href="/submit"
+                className="hover:text-sky-700 transition-colors"
+              >
+                Suggest a place
+              </Link>
             </nav>
           </div>
         </header>
