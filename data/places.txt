@@ -35,6 +35,36 @@ Curtis Park Deli
 restaurant, Curtis Park
 Nothing fancy but really solid sandwiches.
 
+Molotov
+restaurant, City Park
+Homey feeling Ukrainian restaurant. Great vibes.
+
+Restaurant Olivia
+restaurant, Washington Park
+date-night
+Delicious pasta. Great for a date night.
+
+Lucina
+restaurant, Park Hill
+Latin-American and Spanish food. Very good. Kind of loud.
+
+Bonnie Brae Ice Cream
+restaurant, Bonnie Brae
+kid-friendly
+Best ice cream in Denver (IMO).
+
+Mister Oso (RiNo)
+restaurant, RiNo
+Good tacos and other Mexican/Latin-American food. Not really authentic but still good. Kind of loud but fun.
+
+Mister Oso (Wash Park)
+restaurant, Washington Park
+Good tacos and other Mexican/Latin-American food. Not really authentic but still good. Kind of loud but fun.
+
+Carmine Lonardo's
+restaurant, Lakewood
+Very authentic Italian deli. Great, huge sandwiches and lots of Italian ingredients you wouldn't find elsewhere. Surprising to find a place like this outside of New York.
+
 # ─── Coffee ───
 
 Goodbread
@@ -45,6 +75,15 @@ Great pastries and sandwiches — get there early, they're sold out of the best 
 Honey Hill
 coffeeshop|restaurant, Park Hill
 Fancy, homey feeling coffee shop with breakfast sandwiches.
+
+Novo Coffee
+coffeeshop, Congress Park
+outdoor-seating
+Really nice patio and good drinks. No cold brew.
+
+Lula Rose
+coffeeshop, Colfax
+Sweet little coffee shop on Colfax. Owned by the same people as Goodbread.
 
 # ─── Outdoors ───
 
@@ -57,6 +96,21 @@ Highline Canal Trail
 hike|park, Cherry Hills Village
 kid-friendly, pet-friendly, free
 Flat trail for walking, running, and biking. Best entry near Kent School or Marjorie Perry Nature Preserve.
+
+Mount Falcon
+hike, Morrison
+kid-friendly, free
+One of the closest hiking areas to Denver but never feels crowded. There's a very accessible ~3 mile loop you can do pretty much all year round.
+
+Chavez & Beaver Brook Trail
+hike, Genesee
+free
+Beautiful 5 mile loop through a pretty canyon. Can get crowded and very hot on summer days — start early.
+
+Chautauqua
+hike|park, Boulder
+pet-friendly, free
+Really nice hiking area near Boulder. Lots of different trails to explore.
 
 # ─── Attractions ───
 
@@ -88,3 +142,7 @@ Decent acts come through here. The vibe is only OK but the music sounds good.
 Red Rocks Amphitheater
 attraction, Morrison
 Legendary music venue for a reason. Getting here is a total pain.
+
+Ball Arena
+attraction, LoDo
+Perfectly acceptable place to watch a basketball game. Jokic is fun to see in person.
