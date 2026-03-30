@@ -35,6 +35,10 @@ Curtis Park Deli
 restaurant, Curtis Park
 Nothing fancy but really solid sandwiches.
 
+Urban Burma
+restaurant, Aurora
+Really good Burmese food, good for takeout. Located in Mango House — a community space for refugees that also has a bunch of delicious immigrant-run restaurants and other shops.
+
 Molotov
 restaurant, City Park
 Homey feeling Ukrainian restaurant. Great vibes.
@@ -146,3 +150,20 @@ Legendary music venue for a reason. Getting here is a total pain.
 Ball Arena
 attraction, LoDo
 Perfectly acceptable place to watch a basketball game. Jokic is fun to see in person.
+
+# ─── Bars ───
+
+Cerebral Brewing
+bar, Congress Park
+outdoor-seating
+Good tap room with a nice patio. They have a food truck that rotates daily, or you can order from another restaurant on Colfax.
+
+Lowry Beer Garden
+bar, Lowry
+outdoor-seating
+Nice outdoor space, good food and beer.
+
+Denver Beer Co. Lowry
+bar, Lowry
+kid-friendly, outdoor-seating
+Nice patio with a playground 25 yards away. Perfect for little kids.
