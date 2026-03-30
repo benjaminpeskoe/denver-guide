@@ -26,6 +26,12 @@ export default function AboutPage() {
           — those are spots that have been recommended to me but I haven&apos;t
           tried yet.
         </p>
+        <p>
+          I have two young kids, so while not every recommendation on here is
+          kid friendly, the list definitely skews toward places that parents of
+          young kids might go (eg there aren&apos;t a lot of late night clubs,
+          but there are some good places for a date night).
+        </p>
         <p>Have a great time in Denver! 🏔️</p>
         <p>
           Have a place you think I should try?{" "}
