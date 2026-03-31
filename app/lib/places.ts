@@ -65,6 +65,7 @@ export function getNearbyPlaces(
       ...p,
       distanceMi: distanceMiles(lat, lng, p.enriched!.lat!, p.enriched!.lng!),
     }))
+    .filter((p) => p.distanceMi < 0.5)
     .sort((a, b) => a.distanceMi - b.distanceMi)
     .slice(0, count);
 }
