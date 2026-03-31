@@ -5,6 +5,7 @@ import { getAllPlaces, getPlaceById } from "../../lib/data";
 import { getNearbyPlaces } from "../../lib/places";
 import { CATEGORIES } from "../../lib/constants";
 import FriendRecBadge from "../../components/FriendRecBadge";
+import NotesRenderer from "../../components/NotesRenderer";
 import NearbyPlaces from "../../components/NearbyPlaces";
 
 export async function generateStaticParams() {
@@ -98,7 +99,7 @@ export default async function PlacePage({ params }: Props) {
           <p className="text-xs font-semibold uppercase tracking-wide text-stone-400 mb-2">
             {place.isFriendRec ? "Why it's on my list" : "Ben's Take"}
           </p>
-          <p className="text-stone-700 leading-relaxed">&ldquo;{place.myNotes}&rdquo;</p>
+          <p className="text-stone-700 leading-relaxed">&ldquo;<NotesRenderer text={place.myNotes} />&rdquo;</p>
         </div>
       )}
 

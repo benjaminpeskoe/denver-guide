@@ -22,6 +22,7 @@ const VALID_CATEGORIES = new Set([
   "attraction",
   "hike",
   "skiing",
+  "shopping",
 ]);
 
 const VALID_TAGS = new Set([
