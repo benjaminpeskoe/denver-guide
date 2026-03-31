@@ -70,7 +70,7 @@ restaurant, Lakewood
 Very authentic Italian deli. Great, huge sandwiches and lots of Italian ingredients you wouldn't find elsewhere. Surprising to find a place like this outside of New York.
 
 Lou's Italian Specialties
-restaurant, LoHi
+restaurant, Cole
 Really solid Italian deli. Not as good as [[Carmine Lonardo's]], but closer to central Denver.
 
 Cherry Cricket
@@ -94,6 +94,18 @@ Good sandwich spot with fun (loud) music. Small but nice patio.
 Potager
 restaurant, Capitol Hill
 Great food with a focus on seasonal produce, cool vibe with lots of greenery.
+
+La Fillette
+coffeeshop|restaurant, Montclair
+Great bread & pastries, and very good sit-down breakfast & lunch.
+
+Makfam
+restaurant, Speer
+Really good Chinese/Asian fusion. Kind of strange 50s diner decor.
+
+Casa Bonita
+restaurant, Lakewood
+Totally ridiculous. Watch the documentary. Food isn't as bad as people say.
 
 The Greenwich
 restaurant, RiNo
