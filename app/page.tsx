@@ -1,6 +1,7 @@
 import { Suspense } from "react";
 import { getAllPlaces } from "./lib/data";
 import PlacesExplorer from "./components/PlacesExplorer";
+import ExportButton from "./components/ExportButton";
 
 export default function HomePage() {
   const places = getAllPlaces();
@@ -15,6 +16,9 @@ export default function HomePage() {
         <p className="mt-2 text-stone-500 text-lg">
           My favorite spots around Denver
         </p>
+        <div className="mt-3">
+          <ExportButton />
+        </div>
       </div>
 
       <Suspense>
