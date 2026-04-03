@@ -50,9 +50,6 @@ export default function RootLayout({
 
         <main className="flex-1">{children}</main>
 
-        <footer className="border-t border-stone-200 bg-white py-6 text-center text-sm text-stone-400">
-          Made with ☀️ in Denver
-        </footer>
       </body>
     </html>
   );
